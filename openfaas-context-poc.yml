@@ -1,0 +1,8 @@
+version: 1.0
+provider:
+  name: openfaas
+functions:
+  openfaas-context-poc:
+    lang: golang-http-armhf
+    handler: openfaas-context-poc
+    image: spawn2kill/openfaas-context-poc:latest
